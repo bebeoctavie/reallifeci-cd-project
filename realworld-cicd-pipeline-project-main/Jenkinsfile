@@ -75,7 +75,7 @@ pipeline {
             }
         }
     }
-/*
+
     stage('SonarQube GateKeeper') {
         steps {
           timeout(time : 1, unit : 'HOURS'){
@@ -83,7 +83,7 @@ pipeline {
           }
        }
     }
- */
+ 
 	  
     stage("Nexus Artifact Uploader"){
         steps{
